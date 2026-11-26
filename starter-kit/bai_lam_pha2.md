@@ -77,7 +77,7 @@ Bước 6: Tính tổng tiền
 3.116.000 + 200.000 = 3.316.000 đồng
 
 [RESULT:3.316.000 đồng]
-```
+
 
 **Link trò chuyện:**
 https://share.gemini.google/ffsurekfWnyh
@@ -85,6 +85,7 @@ https://share.gemini.google/ffsurekfWnyh
 ### b) Kiểm tra kết quả AI
 
 (Ghi kết luận AI đúng hay sai; nếu sai, ghi bước sai đầu tiên và kết quả đúng của bước đó – xoá dòng này)
+
 
 ## 4.4. Dây chuyền xử lý khiếu nại – kết quả Trạm 1
 
