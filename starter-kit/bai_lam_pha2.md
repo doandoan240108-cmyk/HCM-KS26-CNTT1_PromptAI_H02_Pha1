@@ -23,10 +23,64 @@
 **KET QUA AI**
 
 ```text
-(Dán câu trả lời của AI vào đây (bấm nút Copy dưới câu trả lời) – xoá dòng này)
+```python
+adult_price = 320000
+num_adults = 8
+num_children_5_10 = 3 # ages 6, 7, 9
+num_infants = 1 # age 2
+luggage = 2
+
+step1 = adult_price * num_adults
+step2 = (adult_price * 0.75) * num_children_5_10
+step3 = step1 + step2
+step4 = step3 * 0.95 # 8 >= 6 adults -> 5% discount
+step5 = 100000 * luggage
+step6 = step4 + step5
+
+print(f"Step 1: {step1}")
+print(f"Step 2: {step2}")
+print(f"Step 3: {step3}")
+print(f"Step 4: {step4}")
+print(f"Step 5: {step5}")
+print(f"Step 6: {step6}")
+
+
+```
+
+```text
+Step 1: 2560000
+Step 2: 720000.0
+Step 3: 3280000.0
+Step 4: 3116000.0
+Step 5: 200000
+Step 6: 3316000.0
+
+
+```
+
+Bước 1: Tính tiền vé người lớn
+8 × 320.000 = 2.560.000 đồng
+
+Bước 2: Tính tiền vé trẻ em (3 trẻ từ 5–10 tuổi tính 75% giá vé; 1 bé 2 tuổi miễn phí)
+3 × (320.000 × 75%) + 1 × 0 = 3 × 240.000 + 0 = 720.000 đồng
+
+Bước 3: Tính tiền vé
+2.560.000 + 720.000 = 3.280.000 đồng
+
+Bước 4: Tính tiền vé giảm giá đoàn (đoàn 8 người lớn ≥ 6 người lớn nên được giảm 5%)
+3.280.000 × (100% − 5%) = 3.280.000 × 95% = 3.116.000 đồng
+
+Bước 5: Tính tiền phụ thu (2 kiện hành lý cồng kềnh)
+2 × 100.000 = 200.000 đồng
+
+Bước 6: Tính tổng tiền
+3.116.000 + 200.000 = 3.316.000 đồng
+
+[RESULT:3.316.000 đồng]
 ```
 
 **Link trò chuyện:**
+https://share.gemini.google/ffsurekfWnyh
 
 ### b) Kiểm tra kết quả AI
 
